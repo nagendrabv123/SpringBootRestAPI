@@ -8,10 +8,10 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int Id;
-    @Columd
+    @Column
     private String name;
     @Column
-    private int age;s
+    private int age;
 
     public Employee() {
 
