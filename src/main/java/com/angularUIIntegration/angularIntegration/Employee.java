@@ -10,7 +10,7 @@ public class Employee {
     private int Id;
     @Column
     private String name;
-    @Column
+    @Columns
     private int age;
 
     public Employee() {
