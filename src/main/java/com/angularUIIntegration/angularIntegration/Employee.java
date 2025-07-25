@@ -11,7 +11,7 @@ public class Employee {
     @Column
     private String name;
     @Column
-    private int age;
+    private int age;s
 
     public Employee() {
 
